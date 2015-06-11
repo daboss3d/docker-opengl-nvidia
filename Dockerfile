@@ -1,5 +1,5 @@
-FROM debian:jessie
-MAINTAINER Matt McCormick <matt@mmmccormick.com>
+FROM ubuntu:14.04
+MAINTAINER Carlos Correia <daboss3d@gmail.com>
 
 RUN apt-get update
 RUN apt-get install -y x-window-system
